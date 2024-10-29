@@ -19,7 +19,7 @@ public class TC_01 {
 	public void beforetest() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		
+		//Test
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get("https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2NyZWF0ZS8%2C/");
